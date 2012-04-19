@@ -1,0 +1,18 @@
+ActiveX Source Code Written in VB6.
+
+ActiveX Control can be used to capture a Still Image from the Digital Camera Connected to the Windows PC.
+
+
+API 
+====
+
+CopyToClipboard()
+-----------------
+	This Function captures a Still Image and Copies the Content to the ClipBoard Buffer
+
+CopyToFileBMP(Fname As String)
+------------------------------
+	This Function captures a Still Image and Write into a File.
+
+
+Note : The Camera Driver SHOULD be installed and the Driver Should be WIA Complaint.
